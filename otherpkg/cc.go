@@ -1,6 +1,6 @@
 package otherpkg
 
-import "github.com/arekkas/accurate-test-coverage/pkg"
+import "github.com/mitar/accurate-test-coverage/pkg"
 
 func SayCodeCoverage() string {
 	return pkg.SayCode() + " " + pkg.SayCoverage()
